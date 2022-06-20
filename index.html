@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>de-lang</title>
+</head>
+<body>
+    <!-- MODULE FORM -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <form id="ms" class="mes-bg" action="sender.php" method="POST">
+			<div class="mes">
+				<h3>SEND US MESSAGE</h3>
+				<div class="mes-inp">	
+					<p>Full Name</p>
+					<input type="text" class="inp name" id="userName" name="name" placeholder="Your Name">
+				</div>
+				<div class="mes-inp">				
+					<p>Email</p>
+					<input type="text" class="inp email" name="email" id="email" placeholder="Your Email">
+				</div>
+				<div class="mes-inp">	
+					<p>Message</p>
+					<textarea type="text" class="inp msg" name="text" id="userText" placeholder="Your Message"></textarea>
+				</div>
+				<input id="sub" type="submit" class="mes-btn" value="SUBMIT">
+			</div>
+		</form>
+        </div>
+      </div>
+
+    <!-- HEADER AND BURGER-MENU   -->
+
+    <header>
+        <div class="container">
+            <div class="main-menu">
+                <div class="logo">
+                    <img id="Home" src="img/logo.svg" alt="">
+                </div>
+                    <div class="menu-btn">
+                        <nav class="mobile-menu">
+                            <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+                            <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+                            <div class="mobile-menu__container">
+                            <ul class="mobile-menu__list">
+                                <li class="mobile-menu__item"><a href="#Home" class="mobile-menu__link">Home</a></li>
+                                <li class="mobile-menu__item"><a href="#Where" class="mobile-menu__link">What we do</a></li>
+                                <li class="mobile-menu__item"><a href="#Our" class="mobile-menu__link">Our Beloved Clien</a></li>
+                                <li class="mobile-menu__item"><a href="#Int" class="mobile-menu__link">Intersted to woek</a></li>
+                            </ul>
+                            </div>
+                        </nav>
+                    </div>
+            </div>
+        </div>
+        
+
+        <!-- ANIMATION BLOCK -->
+
+            <div  class="general">   
+                <div class="general-left">
+                    <h1 class="animate__animated animate__slideInLeft  animate__slow">New Automation Tool for Your Home</h1>
+                        <p class="animate__animated animate__slideInLeft  animate__slow">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Faucibus tristique vulputate
+                        ultrices ut mauris tellus at.
+                        Posuere sollicitudin odio tellus elit.</p>
+                    <button class="animate__animated animate__slideInLeft  animate__slow">See Our Project</button>   
+                </div> 
+                 <div class="general-right animate__animated animate__pulse animate__infinite animate__slower">
+                    <img class="men animate__animated animate__pulse animate__infinite animate__slow" src="img/men.svg" alt="">
+                    <img class="women animate__animated animate__pulse animate__infinite animate__slower" src="img/women.svg" alt="">
+                </div>
+            </div>        
+        </div>    
+    </header>
+
+    <!-- BLOCK WITH CARDS -->
+
+    <section id="Where" class="customer-assistance">
+        <div class="container">
+            <div class="cards">
+                <div class="cards-left">
+                    <h2 class="animate__animated animate__slideInLeft  animate__slower">What we do to help
+                        our client grow in
+                        digital era,</h2>
+                    <div class="card card-one animate__animated animate__backInLeft animate__slower">
+                        <img class="card-img card-one-img" src="img/make.svg" alt="">
+                        <div class="title-card">
+                            <h3>Make Your business To Be
+                                Better Famous In Internet</h3>
+                        </div>
+                        <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                        </div>
+                        <div class="link-card">
+                            <a href="#">Learn more</a>
+                            <img src="img/array.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-right">
+                    <div class="card card-two animate__animated animate__backInRight animate__slow">
+                        <img class="card-img card-two-img" src="img/bring.svg" alt="">
+                        <div class="title-card">
+                            <h3>Bring Technology To Your 
+                                Comfrotable Home</h3>
+                        </div>
+                        <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                        </div>
+                        <div class="link-card">
+                            <a href="#">Learn more</a>
+                            <img src="img/array.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card card-three animate__animated animate__backInRight animate__slower">
+                        <img class="card-img card-three-img" src="img/build.svg" alt="">
+                        <div class="title-card">
+                            <h3>Build Your Digital Product
+                                That Suitable For Your Need</h3>
+                        </div>
+                        <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                        </div>
+                        <div class="link-card">
+                            <a href="#">Learn more</a>
+                            <img src="img/array.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- BLOCK WITH TABLE -->
+
+    <section id="Our" class="client">
+        <div class="container">
+            <div class="client-title">
+                <h2>Our Beloved
+                    Client</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="client-logo">
+                <table class="client-table">
+                    <tr class="top">
+                        <td><a class="client-link" href="#">LOGO CLIENT 1</a></td>
+                        <td><a class="client-link" href="#">LOGO CLIENT 2</a></td>
+                        <td><a class="client-link" href="#">LOGO CLIENT 3</a></td>
+                        <td><a class="client-link" href="#">LOGO CLIENT 4</a></td>
+                    </tr>
+                    <tr class="bot">
+                        <td><a class="client-link" href="#">LOGO CLIENT 5</a></td>
+                        <td><a class="client-link" href="#">LOGO CLIENT 6</a></td>
+                        <td><a class="client-link" href="#">LOGO CLIENT 7</a></td>
+                        <td><a class="client-link "href="#">More Client</a></td>
+                    </tr>
+                  </table>
+            </div>
+        </div>    
+
+    <!-- FOOTER -->
+
+            <footer id="Int">
+                <div class="container">
+                    <div class="footer-title">
+                        <div class="footer-title-left">
+                            <h2>Intersted to woek
+                                with our team?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam.</p>
+                        </div>
+                        
+                        <div class="footer-title-right">
+                            <button id="myBtn" class="footer-button js-open-modal">Let’s Talk</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer-link">
+                        <div class="footer-link-left">
+                            <div class="footer-logo">
+                                <img src="img/logo_footer.svg" alt="">
+                                <h2>Afrianska</h2>
+                            </div>
+                            <div class="footer-inf">
+                                <div class="inf adr">
+                                    <p >A.</p>
+                                    <p class="inf-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="inf tel">
+                                    <p>T.</p>
+                                    <p class="inf-text">+62-812-7313-4321</p>
+                                </div>
+                                <div class="inf email">
+                                    <p>E.</p>
+                                    <p class="inf-text">hello.afrian@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-links">
+                            <div class="footer-links-left">
+                                <h4>About US</h4>
+                                <a href="#">About</a>
+                                <a href="#">What We Do</a>
+                                <a href="#">Project</a>
+                                <a href="#">How It Work With Us</a>
+                            </div>
+                            <div class="footer-links-right">
+                                <h4>Follow US</h4>
+                                <a href="#">Instagram</a>
+                                <a href="#">Facebook</a>
+                                <a href="#">LinkedIn</a>
+                                <a href="#">Youtube</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bot">
+                        <p>2019 © Afrianska. All rights reserved.</p>
+                    </div> 
+                </div>
+            </footer>
+    </section>
+    
+    <script src="js/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
