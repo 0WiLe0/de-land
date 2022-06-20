@@ -6,27 +6,22 @@
 @font-face{
     font-family: 'Galien';
     src: url('../fonts/Galien-Regular.ttf');
-    font-weight: normal;
 }
 @font-face{
     font-family: 'Gilroy-Thin';
     src: url('../fonts/Gilroy-Thin.ttf');
-    font-weight: normal;
 }
 @font-face{
     font-family: 'Gilroy-Bold';
     src: url('../fonts/Gilroy-Bold.ttf');
-    font-weight: normal;
 }
 @font-face{
     font-family: 'Gilroy-Semibold';
     src: url('../fonts/Gilroy-Semibold.ttf');
-    font-weight: normal;
 }
 @font-face{
     font-family: 'Gilroy-Regular';
     src: url('../fonts/Gilroy-Regular.ttf');
-    font-weight: normal;
 }
 
 /* MAIN TAGS */
@@ -354,7 +349,6 @@ button:hover{
     padding-bottom: 125px; 
 }
 .client-table a{
-    text-decoration: none;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 46px;
@@ -527,7 +521,6 @@ hr{
 .mes input{
 	width: 96%;
     height: 72px;
-	font-family: "gilroy";
 	font-size: 16px;
     color:#fff;
 	border: none;
