@@ -111,7 +111,7 @@ header{
     background-color: #356ead;
     opacity: 0.9;
 }
-.mobile-menu__item:hover{
+.mobile-menu__item a:hover{
     width: 100%;
     background-color: #316099;
     transition: .5s;
